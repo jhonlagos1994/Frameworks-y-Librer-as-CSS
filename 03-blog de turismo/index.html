@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html style="background-image: url(img/fondo.jpg);background-attachment: fixed ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="icon" href="img/favicon.png" type="image/x-icon">
+
+  <title>Blog de Turismo SCENTS</title>
+</head>
+
+<body>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  <div class="row">
+    <div class="col l1  hide-on-med-and-down">
+      <ul class="center-align personal1">
+        <li><a href="#" class="btn-floating btn-large blue personal"><img src="iconos/face.png" alt="facebook"></a></li>
+        <li><a href="#" class="btn-floating btn-large blue personal"><img src="iconos/twitter.png" alt="facebook"></a></li>
+        <li><a href="#" class="btn-floating btn-large blue personal"><img src="iconos/google.png" alt="facebook"></a></li>
+        <li><a href="#" class="btn-floating btn-large blue personal"><img src="iconos/blog.png" alt="facebook"></a></li>
+        <li><a href="#" class="btn-floating btn-large blue personal"><img src="iconos/instagram.png" alt="facebook"></a></li>
+        <li><a href="#" class="btn-floating btn-large blue personal"><img src="iconos/youtube.png" alt="facebook"></a></li>
+      </ul>
+
+    </div>
+
+    <div class="col l11 s12">
+      <div class="row">
+          <a href="#" class="brand-logo left perfil" ><img src="img/perfil.jpg" id="perfilimg" alt="perfil" class="rexponsive-img"></a>
+            <ul class="right hide-on-med-and-down">
+              <a href="#" class="btn waves-effect waves-light blue"><i class="material-icons left">toc</i>Inicio</a>
+              <a href="#" class="btn waves-effect waves-light blue"><i class="material-icons left">navigation</i>Estube en...</a>
+              <a href="#" class="btn waves-effect waves-light blue"><i class="material-icons left">grade</i>Mejores Viajes</a>
+              <a href="#" class="btn waves-effect waves-light blue"><i class="material-icons left">thumb_up</i>Recomendaciones</a>
+            </ul>
+            <ul class="hide-on-large-only right">
+              <a href="#" class="btn waves-effect waves-light blue"><i class="material-icons">toc</i></a>
+              <a href="#" class="btn waves-effect waves-light blue"><i class="material-icons">navigation</i></a>
+              <a href="#" class="btn waves-effect waves-light blue"><i class="material-icons">grade</i></a>
+              <a href="#" class="btn waves-effect waves-light blue"><i class="material-icons">thumb_up</i></a>
+            </ul>
+      </div>
+
+      <div class="row">
+        <div class="col l4 s12">
+          <img src="img/img1.jpg" class="responsive-img" alt="imagen">
+          <img src="img/img2.jpg" class="responsive-img" alt="imagen">
+        </div>
+        <div class="col l4 s12">
+          <img src="img/img3.jpg" class="responsive-img" alt="imagen">
+        </div>
+        <div class="col l4 s12">
+          <img src="img/img4.jpg" class="responsive-img" alt="imagen">
+          <img src="img/img5.jpg" class="responsive-img" alt="imagen">
+          <img src="img/img6.jpg" class="responsive-img" alt="imagen">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col l8 s12">
+      <div class="row">
+        <div class="card-panel white black-text">
+          <div class="col l4 s12">
+            <img src="img/disney.jpg" alt="acuario">
+          </div>
+          <h4>Walt Disney World</h3>
+            <div class="chip">
+              19 de Mayo del 2019 <i class="material-icons">view_agenda</i>
+            </div>
+            <div class="chip">
+             Orlando<i class="material-icons">location_on</i>
+            </div>
+              <p class="flow-text">Walt Disney World Resort, comúnmente llamado Walt Disney World o Disney World, es un complejo turístico famoso por sus parques temáticos y numerosos hoteles. El complejo es operado por una división de la compañía Disney, que es la propietaria. Está localizado en la zona de Lake Buena Vista y Bay Lake en Florida.
+
+              La construcción empezó en 1967, menos de un año después de la muerte de Walt Disney. El 1 de octubre de 1971, abrió sus puertas el parque conocido como Magic Kingdom; luego se añadieron al complejo los parques temáticos Epcot, Disney's Hollywood Studios y Disney's Animal Kingdom.
+
+              Además de los cuatro parques temáticos principales, el complejo cuenta con dos parques acuáticos, seis circuitos de golf, un complejo deportivo, dos centros comerciales, veinticuatro hoteles de Disney, numerosas tiendas, y restaurantes. El área total de la propiedad tiene 12.000 hectáreas (como la ciudad de San Francisco) y es el complejo de parques temáticos más grande del mundo, a pesar de que en la última década se han vendido grandes extensiones de terreno para conjuntos residenciales y otros proyectos, incluyendo el terreno ahora ocupado por la ciudad de Celebration, construida y administrada por Disney.</p>
+        </div>
+      </div>
+      <div class="row blue white-text">
+        <div class="input-field col l6 s12 ">
+          <i class="material-icons prefix">perm_identity</i>
+          <input type="text" id="nombre" class="validate">
+          <label for="nombre" class="white-text">Nombre y Apellido</label>
+        </div>
+        <div class="input-field col l6 s12 ">
+          <i class="material-icons prefix">email</i>
+          <input type="email" id="email" class="validate">
+          <label for="email" class="white-text" data-success="email correcto" data-error="Ingresa un email valido">E-mail</label>
+        </div>
+        <div class="input-field col s12 ">
+          <i class="material-icons prefix">chat_bubble</i>
+          <textarea id="texto" class="materialize-textarea"></textarea>
+          <label for="texto" class="white-text">Comentario</label>
+        </div>
+      </div>
+    </div>
+    <div class="col l4 s12">
+      <div class="card-panel white black-text">
+        <div class="card">
+          <img src="img/perfildeautor.jpg" alt="perfil" class="circle responsive-img">
+          <h4>Walt Disney</h4>
+        </div>
+          <p class="flow-text">A pesar de los esfuerzos de sus biógrafos, un fondo de leyenda sigue aún planeando sobre la figura de Walt Disney (1901-1966). Un repetido rumor asegura que Disney era un emigrante europeo, probablemente español, que llegó a los Estados Unidos y que, más tarde, por temor a suspicacias, falseó su origen. También han sido mitificadas las circunstancias de su muerte: muchos creyeron que Disney había sido congelado con modernas técnicas de hibernación.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

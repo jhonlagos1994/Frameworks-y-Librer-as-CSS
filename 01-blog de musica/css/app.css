@@ -1,0 +1,66 @@
+html{
+  width: 90%;
+  margin:0 auto;
+  height: 100%;
+  background-image: url(../img/fondo.jpg);
+}
+header{
+  margin-bottom: 10px;
+}
+.redessociales{
+  text-align: right;
+  display: inline-table;
+  margin-top: 10%;
+}
+
+.gris{
+  background-color: #E6E6E6;
+}
+
+.rojo{
+  background-color: #CF493B;
+}
+.azul{
+  background-color: #3A5895;
+}
+.celeste{
+  background-color: #27A4DC;
+}
+.rosado{
+  background-color: #BE85AC;
+}
+.imagenlogo{
+  width: 60%;
+  height: 60%;
+}
+
+.nav{
+  background-color: #0E263D;
+  border-radius: 10px;
+}
+
+img[class^='estiloimg']{
+  width: 8%;
+}
+.estilopropio{
+  width: 100%;
+  margin-top: 25%;
+}
+
+table{
+  cursor: pointer;
+}
+
+p {
+  text-align: justify;
+}
+@media all and (max-width: 900px) {
+.redessociales{
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+}
+.col-xs-3{
+  margin-top: 0%;
+}
+}
